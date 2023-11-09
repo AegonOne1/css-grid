@@ -5,8 +5,8 @@ body {
   font-family: sans-serif;
 }
 
-h1 {
-  margin: 0;
+h1, p, h2 {
+  margin: 10px;
 }
 
 .templateGrid {
@@ -53,20 +53,32 @@ a {
 
 .card {
   background-color: white;
-  padding: 20px 20px 0px 20px;
-  border: 3px solid black;
+  border: 1px solid black;
+  padding-top: 10px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
+img {
+  width: 300px;
+  height: 200px;
+  max-width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
 .butonFrame {
   display: flex;
   justify-content: flex-end;
+  width: 100%;
 }
 
 .buton {
+  padding: 5px;
   width: 100%;
   background-color: blue;
   color: white;
@@ -84,14 +96,4 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-img {
-  width: 300px;
-  height: 200px;
-  max-width: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-  -o-object-position: center;
-     object-position: center;
 }/*# sourceMappingURL=style.css.map */
